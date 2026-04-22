@@ -269,18 +269,12 @@ section {
     transform: scale(1.1);
 }
 
-/* div h4 positioning removed - now handled by .skill-row flex layout */
-
-/* Sticky Navigation */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
-
-
-/* bar */
 
 .bar {
     flex: 1;
@@ -292,7 +286,6 @@ section {
     min-width: 80px;
 }
 
-/* Other Skill rows - label always aligned with its bar */
 .other-skill-list {
     display: flex;
     flex-direction: column;
@@ -352,7 +345,6 @@ main:after {
     display: block;
 }
 
-/* experience & button */
 
 .buttons {
     display: flex;
@@ -401,7 +393,6 @@ main:after {
     background-color: #555;
 }
 
-/* progress circle & animation*/
 
 .skill {
     display: flex;
@@ -482,7 +473,6 @@ circle {
     stroke-dashoffset: 490;
 }
 
-/* Slider  */
 .img1 img,
 .img3 img {
     display: none;
@@ -516,7 +506,6 @@ circle {
 
 
 
-/* animation */
 @keyframes fill {
     from {
         width: 0;
@@ -537,9 +526,6 @@ circle {
     }
 }
 
-/* ===== RESPONSIVE MEDIA QUERIES ===== */
-
-/* Large PC screens (1440px+) */
 @media screen and (min-width: 1440px) {
     section {
         margin-left: 120px;
@@ -556,7 +542,6 @@ circle {
     }
 }
 
-/* Standard laptop/desktop (1024px - 1439px) */
 @media screen and (max-width: 1280px) {
     .logo {
         margin-right: 20px;
@@ -577,7 +562,6 @@ circle {
     }
 }
 
-/* Tablet / small laptop (768px - 1023px) */
 @media screen and (max-width: 1024px) {
     section {
         margin-left: 20px;
@@ -620,7 +604,6 @@ circle {
     }
 }
 
-/* Mobile / small screens (max 800px) */
 @media screen and (max-width: 800px) {
 
     article,
